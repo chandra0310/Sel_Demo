@@ -1,0 +1,5 @@
+Verify number of named car makes available in Make drop down; Total Number of named car makes from UI are: 79 and expected number from Property file is 71
+Verify number of cars returned using search criteria; Total Number of Ferrari named car makes are: 33
+Verify number of cars returned using search criteria; Total Number of BMW named car makes are: 3,662
+Verify number of cars returned using search criteria; Total Number of Mazda named car makes are: 6,397
+Verify number of cars returned using search criteria; Total Number of Honda named car makes are: 2,740
