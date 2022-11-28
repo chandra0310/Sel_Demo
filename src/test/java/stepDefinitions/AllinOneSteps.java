@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import java.io.IOException;
-
 import API.CarsDetails;
 import Library.HelperService;
 import io.cucumber.java.en.When;
@@ -15,9 +14,6 @@ import io.cucumber.java.BeforeStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.testng.asserts.SoftAssert;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
 
 public class AllinOneSteps extends SelWebDriver {
 	private String scenDesc;

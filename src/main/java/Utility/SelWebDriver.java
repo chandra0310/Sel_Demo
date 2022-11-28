@@ -32,10 +32,9 @@ public class SelWebDriver {
             browser = "chrome";
         }
         if ("chrome".equals(browser)) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\chandra.srivastava\\Downloads\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\driver\\chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("start-maximized");
-            //session = ((ChromeDriver)driver).getSessionId();
             driver = new ChromeDriver(chromeOptions);
         } else {
             throw new IllegalArgumentException("Browser \"" + browser + "\" isn't supported.");
