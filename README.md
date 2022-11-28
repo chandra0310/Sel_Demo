@@ -19,7 +19,7 @@ The code samples invoke the Category UsedCar [TradeMe SandBox API](https://devel
 - Download the project, compile it and run Automation Tests
 
 ---
-
+https://github.com/chandra0310/Sel_Demo.git
 
 ## To run the tests
 
